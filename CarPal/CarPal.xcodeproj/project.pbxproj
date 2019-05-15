@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3309C18223AE26D002E218F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3309C17223AE26D002E218F /* AppDelegate.swift */; };
+		F3309C1A223AE26D002E218F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3309C19223AE26D002E218F /* ViewController.swift */; };
+		F3309C1D223AE26D002E218F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3309C1B223AE26D002E218F /* Main.storyboard */; };
+		F3309C1F223AE26F002E218F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3309C1E223AE26F002E218F /* Assets.xcassets */; };
+		F3309C22223AE26F002E218F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3309C20223AE26F002E218F /* LaunchScreen.storyboard */; };
+		F3309C2D223AE26F002E218F /* CarPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3309C2C223AE26F002E218F /* CarPalTests.swift */; };
+		F3309C38223AE26F002E218F /* CarPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3309C37223AE26F002E218F /* CarPalUITests.swift */; };
+		F3309C48223BA3CC002E218F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3309C47223BA3CC002E218F /* FirstViewController.swift */; };
+		F3309C4A223BE8D4002E218F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3309C49223BE8D4002E218F /* MapViewController.swift */; };
+		F3309C4D223BF55F002E218F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3309C4C223BF55F002E218F /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3309C29223AE26F002E218F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3309C0C223AE26C002E218F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3309C13223AE26D002E218F;
+			remoteInfo = CarPal;
+		};
+		F3309C34223AE26F002E218F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3309C0C223AE26C002E218F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3309C13223AE26D002E218F;
+			remoteInfo = CarPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3309C14223AE26D002E218F /* CarPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3309C17223AE26D002E218F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3309C19223AE26D002E218F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3309C1C223AE26D002E218F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3309C1E223AE26F002E218F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3309C21223AE26F002E218F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3309C23223AE26F002E218F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3309C28223AE26F002E218F /* CarPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3309C2C223AE26F002E218F /* CarPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPalTests.swift; sourceTree = "<group>"; };
+		F3309C2E223AE26F002E218F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3309C33223AE26F002E218F /* CarPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3309C37223AE26F002E218F /* CarPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPalUITests.swift; sourceTree = "<group>"; };
+		F3309C39223AE26F002E218F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3309C47223BA3CC002E218F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F3309C49223BE8D4002E218F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F3309C4C223BF55F002E218F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3309C11223AE26D002E218F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3309C4D223BF55F002E218F /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3309C25223AE26F002E218F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3309C30223AE26F002E218F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3309C0B223AE26C002E218F = {
+			isa = PBXGroup;
+			children = (
+				F3309C16223AE26D002E218F /* CarPal */,
+				F3309C2B223AE26F002E218F /* CarPalTests */,
+				F3309C36223AE26F002E218F /* CarPalUITests */,
+				F3309C15223AE26D002E218F /* Products */,
+				F3309C4B223BF55E002E218F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3309C15223AE26D002E218F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3309C14223AE26D002E218F /* CarPal.app */,
+				F3309C28223AE26F002E218F /* CarPalTests.xctest */,
+				F3309C33223AE26F002E218F /* CarPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3309C16223AE26D002E218F /* CarPal */ = {
+			isa = PBXGroup;
+			children = (
+				F3309C49223BE8D4002E218F /* MapViewController.swift */,
+				F3309C47223BA3CC002E218F /* FirstViewController.swift */,
+				F3309C17223AE26D002E218F /* AppDelegate.swift */,
+				F3309C19223AE26D002E218F /* ViewController.swift */,
+				F3309C1B223AE26D002E218F /* Main.storyboard */,
+				F3309C1E223AE26F002E218F /* Assets.xcassets */,
+				F3309C20223AE26F002E218F /* LaunchScreen.storyboard */,
+				F3309C23223AE26F002E218F /* Info.plist */,
+			);
+			path = CarPal;
+			sourceTree = "<group>";
+		};
+		F3309C2B223AE26F002E218F /* CarPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3309C2C223AE26F002E218F /* CarPalTests.swift */,
+				F3309C2E223AE26F002E218F /* Info.plist */,
+			);
+			path = CarPalTests;
+			sourceTree = "<group>";
+		};
+		F3309C36223AE26F002E218F /* CarPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3309C37223AE26F002E218F /* CarPalUITests.swift */,
+				F3309C39223AE26F002E218F /* Info.plist */,
+			);
+			path = CarPalUITests;
+			sourceTree = "<group>";
+		};
+		F3309C4B223BF55E002E218F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3309C4C223BF55F002E218F /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3309C13223AE26D002E218F /* CarPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3309C3C223AE26F002E218F /* Build configuration list for PBXNativeTarget "CarPal" */;
+			buildPhases = (
+				F3309C10223AE26D002E218F /* Sources */,
+				F3309C11223AE26D002E218F /* Frameworks */,
+				F3309C12223AE26D002E218F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarPal;
+			productName = CarPal;
+			productReference = F3309C14223AE26D002E218F /* CarPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3309C27223AE26F002E218F /* CarPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3309C3F223AE26F002E218F /* Build configuration list for PBXNativeTarget "CarPalTests" */;
+			buildPhases = (
+				F3309C24223AE26F002E218F /* Sources */,
+				F3309C25223AE26F002E218F /* Frameworks */,
+				F3309C26223AE26F002E218F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3309C2A223AE26F002E218F /* PBXTargetDependency */,
+			);
+			name = CarPalTests;
+			productName = CarPalTests;
+			productReference = F3309C28223AE26F002E218F /* CarPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3309C32223AE26F002E218F /* CarPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3309C42223AE26F002E218F /* Build configuration list for PBXNativeTarget "CarPalUITests" */;
+			buildPhases = (
+				F3309C2F223AE26F002E218F /* Sources */,
+				F3309C30223AE26F002E218F /* Frameworks */,
+				F3309C31223AE26F002E218F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3309C35223AE26F002E218F /* PBXTargetDependency */,
+			);
+			name = CarPalUITests;
+			productName = CarPalUITests;
+			productReference = F3309C33223AE26F002E218F /* CarPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3309C0C223AE26C002E218F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sneakysneak;
+				TargetAttributes = {
+					F3309C13223AE26D002E218F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F3309C27223AE26F002E218F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F3309C13223AE26D002E218F;
+					};
+					F3309C32223AE26F002E218F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F3309C13223AE26D002E218F;
+					};
+				};
+			};
+			buildConfigurationList = F3309C0F223AE26C002E218F /* Build configuration list for PBXProject "CarPal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3309C0B223AE26C002E218F;
+			productRefGroup = F3309C15223AE26D002E218F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3309C13223AE26D002E218F /* CarPal */,
+				F3309C27223AE26F002E218F /* CarPalTests */,
+				F3309C32223AE26F002E218F /* CarPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3309C12223AE26D002E218F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3309C22223AE26F002E218F /* LaunchScreen.storyboard in Resources */,
+				F3309C1F223AE26F002E218F /* Assets.xcassets in Resources */,
+				F3309C1D223AE26D002E218F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3309C26223AE26F002E218F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3309C31223AE26F002E218F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3309C10223AE26D002E218F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3309C48223BA3CC002E218F /* FirstViewController.swift in Sources */,
+				F3309C1A223AE26D002E218F /* ViewController.swift in Sources */,
+				F3309C18223AE26D002E218F /* AppDelegate.swift in Sources */,
+				F3309C4A223BE8D4002E218F /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3309C24223AE26F002E218F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3309C2D223AE26F002E218F /* CarPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3309C2F223AE26F002E218F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3309C38223AE26F002E218F /* CarPalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3309C2A223AE26F002E218F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3309C13223AE26D002E218F /* CarPal */;
+			targetProxy = F3309C29223AE26F002E218F /* PBXContainerItemProxy */;
+		};
+		F3309C35223AE26F002E218F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3309C13223AE26D002E218F /* CarPal */;
+			targetProxy = F3309C34223AE26F002E218F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3309C1B223AE26D002E218F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3309C1C223AE26D002E218F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3309C20223AE26F002E218F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3309C21223AE26F002E218F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3309C3A223AE26F002E218F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3309C3B223AE26F002E218F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3309C3D223AE26F002E218F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = CarPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.CarPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3309C3E223AE26F002E218F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = CarPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.CarPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3309C40223AE26F002E218F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = CarPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.CarPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPal.app/CarPal";
+			};
+			name = Debug;
+		};
+		F3309C41223AE26F002E218F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = CarPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.CarPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPal.app/CarPal";
+			};
+			name = Release;
+		};
+		F3309C43223AE26F002E218F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = CarPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.CarPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarPal;
+			};
+			name = Debug;
+		};
+		F3309C44223AE26F002E218F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = CarPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.CarPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3309C0F223AE26C002E218F /* Build configuration list for PBXProject "CarPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3309C3A223AE26F002E218F /* Debug */,
+				F3309C3B223AE26F002E218F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3309C3C223AE26F002E218F /* Build configuration list for PBXNativeTarget "CarPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3309C3D223AE26F002E218F /* Debug */,
+				F3309C3E223AE26F002E218F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3309C3F223AE26F002E218F /* Build configuration list for PBXNativeTarget "CarPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3309C40223AE26F002E218F /* Debug */,
+				F3309C41223AE26F002E218F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3309C42223AE26F002E218F /* Build configuration list for PBXNativeTarget "CarPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3309C43223AE26F002E218F /* Debug */,
+				F3309C44223AE26F002E218F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3309C0C223AE26C002E218F /* Project object */;
+}
